@@ -17,7 +17,7 @@ int queue_size(queue_t *queue) {
 }
 
 
-// problema ao passar uma queue NULL a função
+// TODO: corrigir problema ao passar uma queue NULL a função
 void queue_print(char *name, queue_t *queue, void print_elem (void*) ){
     
     if (queue == NULL) {
